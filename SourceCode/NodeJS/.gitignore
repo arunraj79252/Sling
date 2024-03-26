@@ -1,0 +1,4 @@
+/node_modules
+/.env
+/log_files
+/coverage

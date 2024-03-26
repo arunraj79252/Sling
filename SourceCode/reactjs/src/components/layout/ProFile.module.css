@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+  }
+  .profilePic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -22%;
+    min-height: 140px;
+  }
+  
+  .avatar {
+    width: 140px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    font-size: 80px;
+    border: 0.1px solid lightgray;
+  }
+  .avatarLoader {
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    border: 0.1px solid lightgray;
+  }
+  
+  .disabledTextField {
+    border: 0;
+  }
+  
+  .input::-webkit-file-upload-button {
+    visibility: hidden;
+    margin-right: -9px;
+  }
+  
+  .input:before,
+  .input:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  .input {
+    width: 15vw;
+    border-radius: 0%;
+    height: 3vh;
+    border: transparent;
+    display: none;
+  }

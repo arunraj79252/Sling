@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.profile-image img{
+  border:4px solid rgb(103, 58, 183);
+  border-radius: 50%;
+}
+/* html::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 5px;
+  border: 2px solid black;
+  box-shadow: inset 1px 1px 5px black ;
+ }
+ html::-webkit-scrollbar {
+  width: 20px;
+}
+html::-webkit-scrollbar-track {
+ background-image: repeating-linear-gradient(45deg, red 0, red 1px, transparent 0, transparent 50%);
+ background-size: 10px 10px;
+} */
+.chat-list::-webkit-scrollbar {
+  width: 6px;
+}
+.chat-list:hover::-webkit-scrollbar-track {
+  background: transparent;
+}
+.chat-list:hover::-webkit-scrollbar-thumb {
+  background: #bdbdbd;
+}
+.chat-list::-webkit-scrollbar-track {
+  background: transparent;
+  visibility: hidden;
+}
+.chat-list::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 5px;
+}
+.chat-list {
+  overflow-y:scroll
+}
+.chat-list:hover{
+  overflow-y: scroll;
+}

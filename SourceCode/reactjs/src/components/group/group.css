@@ -1,0 +1,121 @@
+.searchWrapper {
+    border: none;
+    border-bottom: 1px solid ;
+    border-color: gray;
+    border-radius: 0px;
+    margin:0px 7px;
+}
+.chip {
+    align-items: center;
+    background: rgb(103, 58, 183);
+    border-radius: 11px;
+    color: #fff;
+    display: inline-flex;
+    font-size: 13px;
+    line-height: 19px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    padding: 4px 10px;
+}
+.highlightOption {
+    background:rgb(103, 58, 183);
+    color: #fff;
+}
+.multiSelectContainer li:hover {
+    background:rgb(103, 58, 183);
+    color: #fff;
+    cursor: pointer;
+}
+
+.multiSelectContainer input {
+    font-size: 16px;
+}
+.css-1h0p0gu-MuiList-root {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    padding-top: 8px;
+    padding-bottom: 11px;
+    background-color: #f4f4f9;
+}
+.css-d49773-MuiListItem-root {
+   
+    padding-bottom: 11px;
+    
+}
+.hoverName{
+    width: 100%;
+    border-radius: 20px;
+    min-height: 60px;
+    padding: 10px;
+}
+.hoverName:hover{
+    background: rgb(228, 228, 228);
+    border-radius: 20px;
+}
+
+.hoverGroupName{
+   width:20%;
+   padding: 20px;
+   border-radius: 20px;
+   
+}
+.hoverGroupName:hover{
+    background: rgb(228, 228, 228);
+}
+
+.infoStyle {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    width: 40%;
+    border-radius: 9px;
+    height: 70%;
+    border: none !important;
+    overflow: hidden;
+  
+  }
+  
+  @media (max-width: 767px) {
+    .infoStyle {
+      width: 90%; /* Set the width to 92% on mobile screens */
+       
+    }
+  }
+  .rdw-dropdown-wrapper {
+    height: 30px;
+    cursor: pointer;
+    border: 1px solid #F1F1F1;
+    border-radius: 2px;
+    margin: 0 3px;
+    text-transform: capitalize;
+    background: rgb(238, 242, 246) !important;
+}
+.rdw-option-wrapper {
+    border: 1px solid #F1F1F1;
+    padding: 5px;
+    min-width: 25px;
+    height: 20px;
+    border-radius: 2px;
+    margin: 0 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: rgb(238, 242, 246) !important;
+    text-transform: capitalize;
+}
+.rdw-editor-toolbar {
+    padding: 6px 5px 0;
+    border-radius: 2px;
+    border: 1px solid #F1F1F1;
+    display: flex;
+    justify-content: flex-start;
+    background: rgb(238, 242, 246) !important;
+    flex-wrap: wrap;
+    font-size: 15px;
+    margin-bottom: 5px;
+    -webkit-user-select: none;
+    user-select: none;
+}
